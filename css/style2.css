@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish&display=swap" );
+/*-------------------header------------------*/
+.header{
+    background: #B4E9F1;
+border-radius: 0px 0px 20000px 0px;
+height:80px;
+width: 100%;
+}
+.logo{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 70px;
+padding-left: 50px;
+color: #000000;
+}
+.nav{
+    position: absolute;
+left: 60.21%;
+right: 7%;
+top: 0%;
+bottom: 11.76%;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    float:right;
+    line-height: 60px;
+}
+.nav ul li{
+    list-style: none;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+/* identical to box height */
+
+
+/* nav-link colour */
+
+color: #2e3d48;
+}
+.nav ul li  a:hover{
+    
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------------------------------main section---------------------------------------*/
+.main{
+    position: absolute;
+width: 1440px;
+height: 1017px;
+left: 0px;
+}
+.heading{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 31px;
+text-decoration-line: underline;
+
+/* text-color-2 */
+
+color: #651B87;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+position: absolute;
+width: 221px;
+height: 31px;
+left: 50%;
+top: 20px;
+
+}
+.notification_image{
+    
+position: absolute;
+width: 30px;
+height: 30px;
+left: 65%;
+top:38px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.notification_image:hover{
+    scale:1.1;
+    transition: ease-in .2s;
+}
+.learning_image{
+    
+position: absolute;
+width: 372px;
+height: 387px;
+left: 129px;
+top:10%;
+background: #FFFFFF;
+box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+}
+.learning_image:hover{
+    scale: 1.1;
+    transition: ease-in .3s;
+}
+.notice{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+
+
+position: absolute;
+left: 50%;
+top: 10%;
+
+border: 3px dashed #9747FF;
+border-radius: 5px;
+}
+.notice ul{
+    line-height: 15px;
+}
+.notice ul li{
+    display: flex;
+    margin-bottom: 5px;
+padding: 20px 20px;
+gap: 29px;
+    list-style:none;
+    color:#651B87;
+    font-size: 20px;
+    background: #FFFFFF;
+box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+}
+.notice ul li a:hover{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.notice_text:hover{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.notice ul li:hover{
+    scale:1.1;
+    transition: ease-in .3s;
+}
+.magaphone_image{
+    width: 50px;
+    height: 50px;
+}
+.magaphone_image:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/*--------------------------------------footer-section-----------------------*/
+.footer{
+height: 336px;
+    background: #B4E9F1;
+    margin-top: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.footer_heading{
+    text-align: center;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+margin-bottom: 10px;
+}
+.footer_disc{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+
+/* inner-text */
+
+color: #986AAD;
+
+}
+.footer_disc ul li{
+    list-style: none;
+    margin-bottom:5px;
+    
+}
+.footer_disc ul li a{
+    color:#986AAD;
+    text-decoration: none;
+}
+.footer_disc ul li a:hover{
+    color: #9747FF;
+    transition: ease-in .5s;
+}
+.footer_image{
+    width: 241px;
+height: 226px;
+}
+
+/*--------------------------responsive-----------------------------------*/
